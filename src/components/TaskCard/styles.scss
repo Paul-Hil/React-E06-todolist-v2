@@ -1,0 +1,22 @@
+#todo>div {
+  width: 100%;
+  background-color: #eee;
+  border-color: #ccc solid 2px;
+  padding: 1rem;
+  text-align: left;
+  font-size: larger;
+  color: black;
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+
+  border-radius: 5px;
+}
+
+#todo>div>input {
+  margin: 1rem;
+}
+
+#todo>div.inactive {
+  background-color: rgb(156, 156, 156);
+  text-decoration: line-through;
+}

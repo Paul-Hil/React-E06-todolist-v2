@@ -1,0 +1,22 @@
+.addTask {
+  padding: 3rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.addTask>form>input {
+  width: 100%;
+  padding: 1.5rem;
+  background-color: #1c382f;
+  border: solid #183129 3px;
+  color: #fff;
+  box-shadow: 5px 5px rgba(0,0,0,0.1);
+  font-size: large;
+}
+.addTask>form>input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.addTask>input:focus {
+  box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
